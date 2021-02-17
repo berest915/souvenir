@@ -13,10 +13,6 @@ export const Ul = styled.ul`
   display: flex;
   justify-content: center;
   margin-top: 0.5rem;
-  .link {
-    a {
-    }
-  }
 `;
 export const StyledAnchor = styled.a`
   color: #000;
