@@ -9,12 +9,12 @@ const Nav = () => {
         <Link href="/" className='link'>
           <ul>all</ul>
         </Link>
-        <Link href="/products/tee" className='link'>
+        {/* <Link href="/products/tee" className='link'>
           <ul>tee</ul>
         </Link>
         <Link href="/products/mug" className='link'>
           <ul>mug</ul>
-        </Link>
+        </Link> */}
         <Link href="/about" className='link'>
           <ul>about</ul>
         </Link>
