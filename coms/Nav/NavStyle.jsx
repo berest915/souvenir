@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { PRIMARY_FONT } from "../../styles/css-constants/css-constant";
+import { PRIMARY_FONT } from "../css-constants/css-constant";
 
 export const Wrapper = styled.div`
   padding: 1.5rem 0;
