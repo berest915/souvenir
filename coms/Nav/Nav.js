@@ -1,13 +1,13 @@
-import { Wrapper } from "./NavStyle";
-import Link from 'next/link'
+import { Wrapper, Ul, StyledAnchor } from "./NavStyle";
+import Link from "next/link";
 
 const Nav = () => {
   return (
     <Wrapper>
       {/* //! cover image */}
-      <li className="li">
-        <Link href="/" className='link' passHref>
-          <a>all</a>
+      <Ul className="li">
+        <Link href="/" className="link" passHref>
+          <StyledAnchor>all</StyledAnchor>
         </Link>
         {/* <Link href="/products/tee" className='link'>
           <ul>tee</ul>
@@ -15,10 +15,10 @@ const Nav = () => {
         <Link href="/products/mug" className='link'>
           <ul>mug</ul>
         </Link> */}
-        <Link href="/about" className='link' passHref>
-          <a>about</a>
+        <Link href="/about" className="link" passHref>
+          <StyledAnchor>about</StyledAnchor>
         </Link>
-      </li>
+      </Ul>
     </Wrapper>
   );
 };
